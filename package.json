@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "knex": "knex",
     "lint": "next lint"
   },
   "dependencies": {
+    "knex": "^2.4.2",
+    "mysql": "^2.18.1",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
